@@ -2,10 +2,10 @@ import Head from "next/head";
 import React from "react";
 import styles from "../styles/Home.module.css";
 import { options1 } from "../chartsOptions/nChart";
-import { options2 } from "./chartsOptions/pChart";
-import { options3 } from "./chartsOptions/kChart";
-import { options4 } from "./chartsOptions/tempOption";
-import { options5 } from "./chartsOptions/moisOption";
+import { options2 } from "../chartsOptions/pChart";
+import { options3 } from "../chartsOptions/kChart";
+import { options4 } from "../chartsOptions/tempOption";
+import { options5 } from "../chartsOptions/moisOption";
 import { useCollection } from "../hooks/useCollection";
 import {
   calculateAvarage,
